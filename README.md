@@ -96,6 +96,11 @@ Função callback que recibe o método map do tableRows para iterar sobre cada o
 
 Contém a informação relevante dos pneus, seus valores vêm diretamente do [tableMeansureData](#tableMeansureData) e procesado pelo [dataCallback](#dataCallback).
 
+### tbody gen
+
+Aproximação do gerador do string para o tablebody, a ideia principal é fazer a lógica do script em cs. veja anexos
+A função é um exemplo que gera as linhas que precisa a página para fornecer a informação importante das medidas dos pneus compatíveis com os veículos
+
 # Anexos
 
 > ![example](example.png)
@@ -105,3 +110,11 @@ Contém a informação relevante dos pneus, seus valores vêm diretamente do [ta
 
 > ![template](template.png)
 > Template Renderizada
+
+---
+
+> ![CSharp Function](csharp.png)
+> Csharp Function
+
+> ![Resultado da função em csharp](result.png)
+> Resultado da função em csharp
