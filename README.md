@@ -116,5 +116,7 @@ A função é um exemplo que gera as linhas que precisa a página para fornecer 
 > ![CSharp Function](csharp.png)
 > Csharp Function
 
+---
+
 > ![Resultado da função em csharp](result.png)
 > Resultado da função em csharp
