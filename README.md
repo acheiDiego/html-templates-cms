@@ -76,7 +76,7 @@ Lista de dados referente as medidas dos pneus, sua aplicação (se for diantero,
 
 #### calibration
 
-    Unidade de ar para calibragem do pneu, descritpo por um valor numérico representando kPa. Ex: 29.
+    Unidade de ar para calibragem do pneu, descrito por um valor numérico representando kPa. Ex: 29.
 
 ---
 
