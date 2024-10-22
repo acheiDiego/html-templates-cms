@@ -15,7 +15,9 @@
       align-items: baseline;
       gap: 1rem;
       list-style-type: none;
-      @media (min-width: 768px) {
+    }
+    @media (min-width: 768px) {
+      ol.product-items.widget-product-grid {
         padding: 1rem 5rem;
       }
     }
@@ -71,11 +73,11 @@
       color: #646464;
     }
     div.widget.block.block-category-link {
-      a {
-        text-decoration: none;
-      }
       text-align: center;
       padding: 0.5rem 0;
+    }
+    div.widget.block.block-category-link a {
+      text-decoration: none;
     }
     div.block-title {
       text-align: center;
@@ -103,13 +105,12 @@
       max-width: 80ch;
     }
     div[data-element="main"] {
-      overflow: auto;
       margin: 10px auto;
     }
     section.tire-and-car-information {
       display: flex;
       justify-content: space-evenly;
-      flex-wrap: wrap;
+      flex-wrap: wrap-reverse;
       gap: 1rem;
     }
     div.car-information {
@@ -117,16 +118,16 @@
       align-items: center;
       gap: 1rem;
       justify-content: space-between;
-      & p {
-        margin: 0.25em;
-      }
+    }
+    div.car-information p {
+      margin: 0.25em;
     }
     .title {
       padding: 10px 1rem;
-      & h2 {
-        margin: 0;
-        font-weight: 900;
-      }
+    }
+    .title h2 {
+      margin: 0;
+      font-weight: 900;
     }
     .car-data {
       padding: 0 1rem;
@@ -142,12 +143,12 @@
       margin: 0 auto;
       padding: 1rem;
       border-radius: 5px;
-      & caption {
-        font-size: 1.5rem;
-        font-weight: 900;
-        padding: 10px;
-        text-align: justify;
-      }
+    }
+    table.meansures-tables caption {
+      font-size: 1.5rem;
+      font-weight: 900;
+      padding: 10px;
+      text-align: justify;
     }
     th.table-cell,
     td.table-cell {
@@ -238,7 +239,7 @@
   </aside>
 </section>
 
-<script>
+<script defer>
   const tableMeansureData = [
     {
       meansure: "175/55R15",
